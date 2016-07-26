@@ -1,0 +1,12 @@
+{
+    "name": "led_sos",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "button-gpio": "^2.0.1"
+        }
+    }
+}
