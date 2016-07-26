@@ -1,0 +1,12 @@
+{
+    "name": "led_colorful",
+    "version": "0.1.0",
+    "description": "",
+    "author": "wei",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "ky-016": "^2.0.0"
+        }
+    }
+}
