@@ -1,0 +1,31 @@
+{
+    "devices": [
+        {
+            "id": "servo",
+            "model": "servo",
+            "driver": "servo_sg90_driver",
+            "inputs": {
+                "pwm": {
+                    "type": "pwm",
+                    "args": {
+                        "frequency": 50
+                    }
+                }
+            }
+        },
+        {
+            "id": "shake",
+            "model": "SW-1801P",
+            "driver": "sw-1801p",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "falling"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "name": "servo_sg90_driver",
+    "version": "0.1.0",
+    "description": "servo ",
+    "author": "",
+    "main": "src/index.js"
+}

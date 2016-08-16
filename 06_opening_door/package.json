@@ -1,0 +1,13 @@
+{
+    "name": "opening_door",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "servo_sg90_driver": "*",
+            "sw-1801p": "^1.0.2"
+        }
+    }
+}
