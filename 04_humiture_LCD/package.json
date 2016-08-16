@@ -1,0 +1,13 @@
+{
+    "name": "humiture",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "lcd1602-pcf8574a-hd44780": "^0.2.1",
+            "dht11": "^0.3.1"
+        }
+    }
+}
