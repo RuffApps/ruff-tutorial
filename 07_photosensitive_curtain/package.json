@@ -1,0 +1,14 @@
+{
+    "name": "photosensitive_curtain",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "gy-30": "^3.0.1",
+            "servo_sg90_driver": "*",
+            "button-gpio": "^2.0.2"
+        }
+    }
+}

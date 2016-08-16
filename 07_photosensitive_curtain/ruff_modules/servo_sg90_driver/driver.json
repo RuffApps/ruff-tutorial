@@ -1,0 +1,11 @@
+{
+    "models": [],
+    "inputs": {
+        "pwm": {
+            "type": "pwm",
+            "args": {
+                "frequency": 50
+            }
+        }
+    }
+}

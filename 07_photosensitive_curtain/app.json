@@ -1,0 +1,61 @@
+{
+    "devices": [
+        {
+            "id": "light",
+            "model": "GY-30",
+            "driver": "gy-30",
+            "args": {
+                "highResolution": false
+            },
+            "inputs": {
+                "i2c": {
+                    "type": "i2c",
+                    "args": {
+                        "address": 35
+                    }
+                }
+            }
+        },
+        {
+            "id": "servo",
+            "model": "servo",
+            "driver": "servo_sg90_driver",
+            "inputs": {
+                "pwm": {
+                    "type": "pwm",
+                    "args": {
+                        "frequency": 50
+                    }
+                }
+            }
+        },
+        {
+            "id": "button_open",
+            "model": "CK002",
+            "driver": "button-gpio",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "both"
+                    }
+                }
+            }
+        },
+        {
+            "id": "button_close",
+            "model": "CK002",
+            "driver": "button-gpio",
+            "inputs": {
+                "gpio": {
+                    "type": "gpio",
+                    "args": {
+                        "direction": "in",
+                        "edge": "both"
+                    }
+                }
+            }
+        }
+    ]
+}
