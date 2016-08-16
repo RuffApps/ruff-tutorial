@@ -1,0 +1,13 @@
+{
+    "name": "relay-test",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "ruff": {
+        "dependencies": {
+            "relay-1c": "^2.0.1",
+            "button-gpio": "^2.0.2"
+        }
+    }
+}
