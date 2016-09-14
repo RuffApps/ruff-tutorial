@@ -1,0 +1,7 @@
+{
+    "name": "joystick",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js"
+}

@@ -1,0 +1,20 @@
+{
+    "models": [
+        "joystick"
+    ],
+    "inputs": {
+        "adc-x": {
+            "type": "adc"
+        },
+         "adc-y": {
+            "type": "adc"
+        },
+         "gpio-k": {
+            "type": "gpio",
+            "args": {
+                "direction": "in",
+                "edge": "both"
+            }
+        }
+    }
+}

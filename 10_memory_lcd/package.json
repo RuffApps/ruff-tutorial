@@ -1,0 +1,18 @@
+{
+    "name": "memory_lcd",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "ruff": {
+        "boards": {
+            "ruff-mbd-v1": "^4.1.1",
+            "*": "*"
+        },
+        "dependencies": {
+            "lcd1602-pcf8574a-hd44780": "^0.2.3",
+            "joystick": "*",
+            "button-gpio": "^2.0.3"
+        }
+    }
+}
