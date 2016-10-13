@@ -1,0 +1,17 @@
+{
+    "name": "bomb",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "boards": {},
+    "ruff": {
+        "dependencies": {
+            "led_gpio": "*",
+            "button-gpio": "^2.0.3",
+            "lcd1602-pcf8574a-hd44780": "^0.2.1",
+            "buzzer-gpio": "^0.2.1",
+            "servo_sg90_driver": "*"
+        }
+    }
+}

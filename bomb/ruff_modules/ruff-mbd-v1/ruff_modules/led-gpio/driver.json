@@ -1,0 +1,12 @@
+{
+    "models": [],
+    "inputs": {
+        "gpio": {
+            "type" : "gpio",
+            "args" : {
+                "direction": "out",
+                "level": "low"
+            }
+        }
+    }
+}
