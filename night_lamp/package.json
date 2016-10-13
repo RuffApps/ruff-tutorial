@@ -1,0 +1,19 @@
+{
+    "name": "night_lamp",
+    "version": "0.1.0",
+    "description": "case for q-kon",
+    "author": "wei",
+    "main": "src/index.js",
+    "ruff": {
+        "boards": {
+            "ruff-mbd-v1": "^4.1.1",
+            "*": "*"
+        },
+        "dependencies": {
+            "ky-016": "^2.0.2",
+            "gy-30": "^3.0.2",
+            "button-gpio": "^2.0.3",
+            "sound-01": "^1.1.2"
+        }
+    }
+}
