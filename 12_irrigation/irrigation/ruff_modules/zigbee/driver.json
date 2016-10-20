@@ -1,0 +1,15 @@
+{
+    "models": [],
+    "inputs": {
+        "uart": {
+            "type": "uart",
+            "args": {
+                "baudRate": 57600,
+                "stopBits": 1,
+                "dataBits": 8,
+                "parity": "none",
+                "flowControl": "none"
+            }
+        }
+    }
+}
